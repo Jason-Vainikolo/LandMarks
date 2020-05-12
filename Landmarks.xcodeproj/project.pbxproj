@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7339F27C2463CC68008CE9B0 /* OneMotionSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7339F27B2463CC68008CE9B0 /* OneMotionSystem.swift */; };
+		7339F27E2463CE1E008CE9B0 /* Developer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7339F27D2463CE1E008CE9B0 /* Developer.swift */; };
+		7339F2802463CE34008CE9B0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7339F27F2463CE34008CE9B0 /* Home.swift */; };
 		7380E170245801EE00FAD2FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7380E16F245801EE00FAD2FB /* AppDelegate.swift */; };
 		7380E172245801EE00FAD2FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7380E171245801EE00FAD2FB /* SceneDelegate.swift */; };
 		7380E174245801EE00FAD2FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7380E173245801EE00FAD2FB /* ContentView.swift */; };
@@ -15,6 +18,8 @@
 		7380E17C245801EF00FAD2FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7380E17A245801EF00FAD2FB /* LaunchScreen.storyboard */; };
 		7380E187245801EF00FAD2FB /* LandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7380E186245801EF00FAD2FB /* LandmarksTests.swift */; };
 		7380E192245801EF00FAD2FB /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7380E191245801EF00FAD2FB /* LandmarksUITests.swift */; };
+		7380E1A0245805DE00FAD2FB /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7380E19F245805DE00FAD2FB /* CircleImage.swift */; };
+		7380E1A22458072600FAD2FB /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7380E1A12458072600FAD2FB /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7339F27B2463CC68008CE9B0 /* OneMotionSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OneMotionSystem.swift; path = ../OneMotionSystem.swift; sourceTree = "<group>"; };
+		7339F27D2463CE1E008CE9B0 /* Developer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Developer.swift; sourceTree = "<group>"; };
+		7339F27F2463CE34008CE9B0 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		7380E16C245801EE00FAD2FB /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7380E16F245801EE00FAD2FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7380E171245801EE00FAD2FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,8 @@
 		7380E18D245801EF00FAD2FB /* LandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7380E191245801EF00FAD2FB /* LandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITests.swift; sourceTree = "<group>"; };
 		7380E193245801EF00FAD2FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7380E19F245805DE00FAD2FB /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		7380E1A12458072600FAD2FB /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +109,14 @@
 		7380E16E245801EE00FAD2FB /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				7339F27D2463CE1E008CE9B0 /* Developer.swift */,
+				7339F27F2463CE34008CE9B0 /* Home.swift */,
+				7339F27B2463CC68008CE9B0 /* OneMotionSystem.swift */,
 				7380E16F245801EE00FAD2FB /* AppDelegate.swift */,
 				7380E171245801EE00FAD2FB /* SceneDelegate.swift */,
 				7380E173245801EE00FAD2FB /* ContentView.swift */,
+				7380E19F245805DE00FAD2FB /* CircleImage.swift */,
+				7380E1A12458072600FAD2FB /* SwiftUIView.swift */,
 				7380E175245801EF00FAD2FB /* Assets.xcassets */,
 				7380E17A245801EF00FAD2FB /* LaunchScreen.storyboard */,
 				7380E17D245801EF00FAD2FB /* Info.plist */,
@@ -268,8 +283,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7380E170245801EE00FAD2FB /* AppDelegate.swift in Sources */,
+				7380E1A0245805DE00FAD2FB /* CircleImage.swift in Sources */,
+				7339F27C2463CC68008CE9B0 /* OneMotionSystem.swift in Sources */,
 				7380E172245801EE00FAD2FB /* SceneDelegate.swift in Sources */,
 				7380E174245801EE00FAD2FB /* ContentView.swift in Sources */,
+				7380E1A22458072600FAD2FB /* SwiftUIView.swift in Sources */,
+				7339F2802463CE34008CE9B0 /* Home.swift in Sources */,
+				7339F27E2463CE1E008CE9B0 /* Developer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
